@@ -1,0 +1,11 @@
+{
+  "name": "bhoomi-jeevan",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Phase-1 MVP for agricultural intelligence and farmer decision support",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  }
+}
