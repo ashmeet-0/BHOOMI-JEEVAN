@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>BHOOMI-JEEVAN · Agricultural Intelligence</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="chrome" role="banner">
+      <div>
+        <h1>BHOOMI-JEEVAN</h1>
+        <p>Real-time Agricultural Intelligence</p>
+      </div>
+      <span class="tag" id="modeTag">DEMO MODE</span>
+    </header>
+
+    <main class="layout" role="main">
+      <section class="card" aria-labelledby="farm-heading">
+        <h2 id="farm-heading">My Farm</h2>
+        <p id="farmSummary">Loading...</p>
+      </section>
+
+      <section class="card" aria-labelledby="water-heading">
+        <h2 id="water-heading">Water Status & Irrigation Recommendation</h2>
+        <div id="waterStatus"></div>
+      </section>
+
+      <section class="card" aria-labelledby="soil-heading">
+        <h2 id="soil-heading">Soil Health</h2>
+        <ul id="soilList"></ul>
+      </section>
+
+      <section class="card" aria-labelledby="advisory-heading">
+        <h2 id="advisory-heading">Farmer Advisory</h2>
+        <div id="recommendations"></div>
+      </section>
+    </main>
+
+    <script src="/main.js"></script>
+  </body>
+</html>
